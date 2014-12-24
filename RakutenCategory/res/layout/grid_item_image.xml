@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/item_image_selector"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/img_thumbnail"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher" />
+
+</LinearLayout>
